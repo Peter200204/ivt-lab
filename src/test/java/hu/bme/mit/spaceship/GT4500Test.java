@@ -117,4 +117,19 @@ public class GT4500Test {
 
   }
 
+  //Loves masodikkal majd  elsovel, majd megegyszer a elsovel, mivel az masodik ures.
+  @Test
+  public void first_fired_Twice_In_a_Row(){
+    //Arrange
+    when(mocksTS.isEmpty()).thenReturn(true);
+    when(mockpTS.fire(anyInt())).thenReturn(true);
+    //Act
+    ship.fireTorpedo(FiringMode.SINGLE);
+    ship.fireTorpedo(FiringMode.SINGLE);
+    //Assert
+    verify(mockpTS,times(2)).fire(anyInt());
+    verify(mocksTS,times(0)).fire(anyInt());
+
+  }
+
 }

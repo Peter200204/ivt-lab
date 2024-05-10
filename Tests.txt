@@ -13,3 +13,6 @@ Single kilovese, sikertelene, arrangbe beallitva, hogy a loves ne sikeruljon egy
 
 Test 5
 Single loves masodikkal, majd megegyszer a masodikkal, mivel az elso ures.	
+
+Test 6
+Loves elsovel, majd megegyszer a elsovel, mivel az masodik ures.
