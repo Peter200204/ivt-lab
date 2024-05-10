@@ -1,0 +1,18 @@
+Test 1
+Single, előtte a primary torpedoval egy loves vegrehajtasa (ekkor a masodikkal kell loni a masodik single hívaskor, tehat 2 single hivas utan 1-1
+kell, hogy legyen a fire hivasok szama.
+
+Test 2
+3 single kilovese, ekkor 2szer kell a primaryt, egyszer a secondaryt hasznalni.
+
+Test 3
+Single utana All kilovese, utana 1 single, ekkor 2szer kell a primaryt, 2szer a secondaryt hasznalni.
+
+Test 4
+Single kilovese, sikertelene, arrangbe beallitva, hogy a loves ne sikeruljon egyik torpedostore-nal se.
+
+Test 5
+Single loves masodikkal, majd megegyszer a masodikkal, mivel az elso ures.	
+
+Test 6
+Loves elsovel, majd megegyszer a elsovel, mivel az masodik ures.
